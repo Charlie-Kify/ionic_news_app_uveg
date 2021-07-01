@@ -4,8 +4,21 @@
 
 export const environment = {
   production: false,
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+firebaseConfig:{
+  apiKey: 'AIzaSyC_MllcWOGxP47RVcYg2W-vNob2X-Bb38U',
+  authDomain: 'newscrud-a317b.firebaseapp.com',
+  projectId: 'newscrud-a317b',
+  storageBucket: 'newscrud-a317b.appspot.com',
+  messagingSenderId: '576203341873',
+  appId: '1:576203341873:web:bf3d3e419f9b2970cd1510',
+  measurementId: 'G-27NMWWGZPP'
+},
+newsApiConfig:{
   apiURL: 'https://newsapi.org/v2/',
   apiKey: 'db038e5e8632418a916c968a172c288a'
+}
+
 };
 
 /*

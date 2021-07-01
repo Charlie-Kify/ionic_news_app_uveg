@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "newscrud-a317b": {
+      "hosting": {
+        "app": [
+          "newscrud-a317b"
+        ]
+      }
+    }
+  }
+}

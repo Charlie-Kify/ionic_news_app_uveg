@@ -3,8 +3,8 @@ import { environment } from 'src/environments/environment';
 import { HttpClient } from '@angular/common/http';
 
 
-const API_URL = environment.apiURL;
-const API_KEY = environment.apiKey;
+const API_URL = environment.newsApiConfig.apiURL;
+const API_KEY = environment.newsApiConfig.apiKey;
 
 @Injectable({
   providedIn: 'root'
